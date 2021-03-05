@@ -1,6 +1,6 @@
 function splice_slice_substr(tab,nbre){
   var str = "123456789";
-  var sp = tab.splice(0,nbre);// soustrait du tableau le nombre de d'elements definit dans le deuxieme parametre splice(start, nbre)
+  var sp = tab.splice(0,nbre);// soustrait/ extract du tableau le nombre de d'elements definit dans le deuxieme parametre splice(start, nbre)
    alert(tab);
   var sl = tab.slice(0,nbre);  // copy the part define in the argument   slice(start, nbre)
   var sub = str.substr(0,nbre);
